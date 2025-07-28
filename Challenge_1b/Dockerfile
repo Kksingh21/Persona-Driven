@@ -7,20 +7,24 @@ WORKDIR /app
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
     build-essential \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements first for better caching
+# Copy requirements first for caching
 COPY requirements.txt .
 
 # Install Python dependencies
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt
 
-# Copy all necessary application files
+# Install NLTK resources required by Sumy
+RUN python -m nltk.downloader punkt
+
+# Copy all source code
 COPY . .
 
 # Create mount point for collections
 RUN mkdir -p /app/collections
 
-# Set the entry point
+# Set default entrypoint
 CMD ["python", "analyze_collections.py"]
