@@ -194,4 +194,11 @@ python analyze_collections.py
 
 **Production Ready**: This implementation delivers robust, scalable persona-driven content analysis ready for evaluation against all Challenge 1B requirements.
 
+## 👨‍💻 Team:Oz
+**Khushi kumari**   
+GitHub:https://github.com/Kksingh21
+
+**Saurav Raj** <br/>
+GitHub:https://github.com/saurav-raj-p7
+
 
