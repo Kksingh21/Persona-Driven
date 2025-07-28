@@ -1,4 +1,4 @@
-# Challenge 1b: Multi-Collection PDF Analysis
+# Challenge 1b:  Persona-Driven Document Intelligence  
 
 ## Overview
 
@@ -193,4 +193,5 @@ python analyze_collections.py
 ---
 
 **Production Ready**: This implementation delivers robust, scalable persona-driven content analysis ready for evaluation against all Challenge 1B requirements.
+
 
