@@ -1,0 +1,77 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-28T19:40:22.377459"
+    },
+    "extracted_sections": [
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "Instructions :",
+            "importance_rank": 1,
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "section_title": "Instructions :",
+            "importance_rank": 2,
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "Instructions :",
+            "importance_rank": 3,
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "section_title": "Instructions :",
+            "importance_rank": 4,
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "section_title": "Instructions :",
+            "importance_rank": 5,
+            "page_number": 2
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "o Pour batter into small dishes and steam until set. o Sauté chopped shrimp and green onions until cooked. o Top steamed cakes with shrimp, green onions, and fried shallots.",
+            "page_number": 5
+        },
+        {
+            "document": "Dinner Ideas - Sides_2.pdf",
+            "refined_text": "o Place a spoonful of filling on each circle and fold to seal. o Blend chickpeas, diced onion, minced garlic, chopped parsley, cumin, coriander, and salt in a food processor. o Form mixture into balls and fry in hot oil until golden.",
+            "page_number": 7
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": " Instructions: o Form risotto into balls and stuff with a cube of mozzarella. o Blend mashed eggplant, tahini, lemon juice, minced garlic, and salt in a food processor. o Mix beans, onion, molasses, brown sugar, ketchup, mustard, salt, and pepper in a baking dish.",
+            "page_number": 4
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "o Add water and knead until smooth. o Brush with melted butter and fold into squares. o Blend peppers, walnuts, breadcrumbs, minced garlic, olive oil, pomegranate molasses, cumin, and salt in a food processor until smooth.",
+            "page_number": 12
+        },
+        {
+            "document": "Dinner Ideas - Sides_3.pdf",
+            "refined_text": "o Blend chickpeas, tahini, lemon juice, minced garlic, and salt in a food processor. o Sauté sliced beef, diced onion, julienned carrot, and bell pepper in sesame oil until cooked. o Mix noodles with soy sauce, sugar, and sesame seeds.",
+            "page_number": 2
+        }
+    ]
+}
