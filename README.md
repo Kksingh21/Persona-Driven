@@ -1,4 +1,4 @@
-# Challenge 1b:  Persona-Driven Document Intelligence  
+ Persona-Driven Document Intelligence  
 
 ## Overview
 
